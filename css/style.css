@@ -1,0 +1,149 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  .navbar .container,
+  .navbar .container-fluid,
+  .navbar .container-sm,
+  .navbar .container-md,
+  .navbar .container-lg,
+  .navbar .container-xl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+  
+  .navbar-text {
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .bg-secondary {
+    background-color: #003153 !important;
+  }
+  
+  a.bg-secondary:hover, a.bg-secondary:focus,
+  button.bg-secondary:hover,
+  button.bg-secondary:focus {
+    background-color: #003153 !important;
+  }
+
+  .bg-primary {
+    background-color: #b8860b !important;
+  }
+  
+  a.bg-primary:hover, a.bg-primary:focus,
+  button.bg-primary:hover,
+  button.bg-primary:focus {
+    background-color: #b8860b !important;
+  }
+
+  .rounded-sm {
+    border-radius: 0.25rem !important;
+  }
+  
+  .rounded {
+    border-radius: 0.5rem !important;
+  }
+  
+  .rounded-top {
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+  }
+  
+  .rounded-right {
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+  }
+  
+  .rounded-bottom {
+    border-bottom-right-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+  }
+  
+  .rounded-left {
+    border-top-left-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.75rem !important;
+  }
+  
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+  
+  .rounded-pill {
+    border-radius: 50rem !important;
+  }
+  
+  .rounded-0 {
+    border-radius: 0 !important;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase !important;
+  }
+  
+
+  #mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+  }
+  #mainNav .navbar-brand {
+    color: #fff;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 1rem;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #b8860b;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #b8860b;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #b8860b;
+  }
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+  }
